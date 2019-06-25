@@ -29,11 +29,11 @@ My pipeline consisted of 6 steps:
 
 **Step 1:**  I converted the images to grayscale.
 
-**Step 2:**  I have applied a gaussian blur in the gray image (in result from step 1).
+**Step 2:**  I have applied a gaussian blur in the gray image (from step 1 result).
 
-**Step 3:**  It was used the tool canny edges detection (in result from step 2).
+**Step 3:**  It was used the tool canny edges detection (from step 2 result).
 
-**Step 4:**  I defined a mask area to keep only the lane lines (in result from step 3).
+**Step 4:**  I defined a mask area to keep only the lane lines (from step 3 result).
 
 **Step 5:**  It was created a empty picture and it was added lines using the picture obtained on step 4 as reference.
 
@@ -49,12 +49,12 @@ The strategie was use the for loop to added the coordinate points for each line 
 and after calculate de average for each coordinate point to create the lines.
 To sort the information between left line and right line the Slope of the line was used
 
-The schematic picture below show the startegie:
+The schematic picture below show the strategie:
 
 ![alt text][image4]
 
 
-The result of this strategie coul see in the next picture:
+The result of this strategy could be saw in the next picture:
 
 ![alt text][image5]
 
