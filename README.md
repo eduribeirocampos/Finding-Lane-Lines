@@ -42,7 +42,7 @@ In the next picture is possible to see the result of each step.
 
 ![alt text][image1]
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by a new a function named "draw_Extended_lines".
+In order to draw a single line on the left and right lanes, I modified the `draw_lines()` function by a new a function named `draw_Extended_lines`.
 
 The strategie was use the for loop to added the coordinate points for each line inside a list,
 and after calculate de average for each coordinate point to create the lines.
